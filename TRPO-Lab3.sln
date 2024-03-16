@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.ConsoleApp", "TRPO-Lab3.ConsoleApp\TRPO-Lab3.ConsoleApp.csproj", "{D6C4B2A3-A0E1-49FF-89DC-F2B9A606E4C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.Lib", "TRPO-Lab3.Lib\TRPO-Lab3.Lib.csproj", "{F7D4BD84-E81F-46B4-BCE8-38722F8EAD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.Tests", "TRPO-Lab3.Tests\TRPO-Lab3.Tests.csproj", "{7AFD9FBE-5CE7-40EC-B5D3-223DEA1E8A7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D6C4B2A3-A0E1-49FF-89DC-F2B9A606E4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C4B2A3-A0E1-49FF-89DC-F2B9A606E4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6C4B2A3-A0E1-49FF-89DC-F2B9A606E4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D4BD84-E81F-46B4-BCE8-38722F8EAD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D4BD84-E81F-46B4-BCE8-38722F8EAD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D4BD84-E81F-46B4-BCE8-38722F8EAD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D4BD84-E81F-46B4-BCE8-38722F8EAD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFD9FBE-5CE7-40EC-B5D3-223DEA1E8A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFD9FBE-5CE7-40EC-B5D3-223DEA1E8A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFD9FBE-5CE7-40EC-B5D3-223DEA1E8A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFD9FBE-5CE7-40EC-B5D3-223DEA1E8A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
