@@ -2,7 +2,7 @@
 {
     public class SphereLayer
     {
-        public static double FindArea(double radius1, double radius2, double height)
+        public static double FindVolume(double radius1, double radius2, double height)
         {
             if (radius1 < 0 || radius2 < 0 || height < 0)
                 throw new ArgumentException("Входные данные не должны быть отрицательными.");
