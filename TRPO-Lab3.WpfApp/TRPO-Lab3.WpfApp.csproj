@@ -10,7 +10,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\Formula.png" />
+    <None Remove="images\SphereLayer.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TRPO-Lab3.Lib\TRPO-Lab3.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\Formula.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\SphereLayer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
