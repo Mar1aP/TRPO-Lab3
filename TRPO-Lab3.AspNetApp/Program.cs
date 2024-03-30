@@ -28,7 +28,7 @@ namespace TRPO_Lab3.AspNetApp
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=SphereLayer}/{action=Index}/{radius1=0}/{radius2=0}/{height=0}");
 
             app.Run();
         }
