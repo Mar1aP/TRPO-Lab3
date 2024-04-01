@@ -8,11 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="wwwroot\images\Formula.png" />
+    <None Remove="wwwroot\images\SphereLayer.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TRPO-Lab3.Lib\TRPO-Lab3.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\images\Formula.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\SphereLayer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
